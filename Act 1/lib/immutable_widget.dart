@@ -13,7 +13,7 @@ class ImmutableWidget extends StatelessWidget{
           decoration: BoxDecoration (
           color: Colors.purple,
           borderRadius: BorderRadius.circular (30),
-          boxShadow: [
+          boxShadow: const [
           BoxShadow(blurRadius: 20),
         ],
           ),
